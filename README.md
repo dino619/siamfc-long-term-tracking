@@ -30,6 +30,14 @@ Other observations:
 - Gaussian sampling gave a small improvement over uniform sampling in one experiment.
 - One clear re-detection happened after 19 lost frames, from frame 789 to frame 808.
 
+## Example figures
+
+Example frames exported for the lost/re-detection part:
+
+![Lost tracking example](Report-template/figures/lost.jpg)
+
+![Recovered tracking example](Report-template/figures/recovered.jpg)
+
 ## Files
 
 ```text
