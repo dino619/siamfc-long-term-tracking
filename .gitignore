@@ -1,0 +1,31 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Large model/data files
+siamfc_net.pth
+dataset-lt/
+
+# Generated result logs and frame-level outputs
+results/**/*.txt
+results/**/*.log
+
+# Keep summaries/figures useful for the report
+!results/optional-car9/summary.csv
+!results/optional-car9/samples_summary.csv
+!results/optional-car9/figures/
+!results/optional-car9/figures/*.jpg
+
+# Packaged/course files
+Assignment5.zip
+Project-5.pdf
+project-5-slides.pdf
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
